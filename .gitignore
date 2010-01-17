@@ -1,0 +1,12 @@
+*.pyc
+*.pyo
+.installed.cfg
+.Python
+bin
+develop-eggs
+downloads
+eggs
+include
+lib
+molnetbot.conf
+parts

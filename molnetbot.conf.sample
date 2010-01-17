@@ -1,0 +1,27 @@
+[xmpp]
+# Bot JID
+jid: molnet@xmppserver/Hello
+password: password-goes-here
+
+[notifications]
+# Space separated list of JIDs to send notifications to. Must be on
+# same server as the above xmpp/jid.
+jids: admin@xmppserver
+notify_on_subscribes: yes
+notify_on_unsubscribes: yes
+notify_on_queries: yes
+
+[molnet]
+api_search_url: http://localhost:9191
+
+[smtp]
+host: smtpserver
+from: molnet@example.com
+# Space separated list of email addresses to send error messages to.
+to: molnet@example.com
+
+[vCard]
+avatar_path: media/avatar.jpg
+
+[debug]
+log_traffic: yes
