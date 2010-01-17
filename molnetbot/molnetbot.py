@@ -40,7 +40,7 @@ import config
 
 
 def _build_notification(content):
-    """Builds a xmpp notification element for admins."""
+    """Builds an xmpp notification element for sending out to admins."""
 
     notification = domish.Element((None, 'message'))
     notification['from'] = config.JID
