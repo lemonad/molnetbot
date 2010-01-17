@@ -1,0 +1,8 @@
+Install and run without daemonizing:
+
+$ virtualenv --no-site-packages .
+$ source bin/activate
+$ python bootstrap.py
+$ bin/buildout
+
+$ twistd -ny molnetbot.tac

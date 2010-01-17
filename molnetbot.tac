@@ -8,13 +8,6 @@ The actual backend is not defined yet except that queries will be
 submitted to a restful API. What kind of resources that will be returned
 is TBD.
 
-Install and run:
-$ virtualenv --no-site-packages .
-$ source bin/activate
-$ python bootstrap.py
-$ bin/buildout
-$ twistd -ny molnetbot.tac
-
 """
 from twisted.application import service
 from twisted.internet import reactor
